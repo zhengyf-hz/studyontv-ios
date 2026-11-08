@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题了个题 · iPad 版</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="题了个题">
+<meta name="theme-color" content="#12141a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div id="app" class="app">
+  <header class="topbar">
+    <button id="brand" class="brand" type="button" aria-label="题了个题">
+      <span class="brand-mark">题</span>
+      <span class="brand-text">
+        <strong>题了个题</strong>
+        <small>先学再看</small>
+      </span>
+    </button>
+    <div class="topbar-right">
+      <button id="themeBtn" class="ghost-btn" type="button" aria-label="切换主题">◐</button>
+      <div id="statChip" class="chip">今日 0 / 60 分钟</div>
+    </div>
+  </header>
+  <main id="view" class="view"></main>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
